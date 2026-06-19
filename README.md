@@ -1,2 +1,2 @@
 # autosuggest
-Verifying my git set-up : )hdsdjugk
+Verifying my git set-up : )hdsd
