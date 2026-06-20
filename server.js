@@ -1,9 +1,11 @@
 const express = require('express');
 const app = express();
-const port = process.env.PoRT || 6700;
+const port= process.env.PORT || 6700;
 
-app.use(express.static('frentend'));
+// To tell app, where static files -html/css/js- are stored, so that it can serve them to the client
+app.use(express.static("frontend"));
 
-app.listen(port,function(){
-    console.log("App running on http://localhost:" + port);
+app.listen(port, function() {
+  console.log("App running on http://localhost:" + port);
 });
+

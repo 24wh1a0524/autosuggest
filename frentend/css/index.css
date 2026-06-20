@@ -44,3 +44,6 @@ body {
 .card img{
     width: 100%;
 }
+.card button {
+    padding-bottom: 20px;
+}
